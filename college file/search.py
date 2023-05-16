@@ -23,7 +23,7 @@ def binary_search(arr, target):
     return -1
 
 # Main program
-arr = list(map(int, input("Enter the elements of the array (space-separated): ").split()))
+arr = [1, 3, 5, 7, 9 ,16, 14 , 94, 100 ]
 target = int(input("Enter the element to search: "))
 
 linear_result = linear_search(arr, target)
