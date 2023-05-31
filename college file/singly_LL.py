@@ -2,7 +2,7 @@ print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
 
 class Student:
     def __init__(self):
-        self.usn = ""
+        self.urn = ""
         self.name = ""
         self.branch = ""
         self.sem = ""
@@ -16,7 +16,7 @@ class StudentLinkedList:
     # Function to insert a student at the front of the linked list
     def front_insert(self):
         student = Student()
-        student.usn = input("Enter USN: ")
+        student.urn = input("Enter URN: ")
         student.name = input("Enter Name: ")
         student.branch = input("Enter Branch: ")
         student.sem = input("Enter Sem: ")
@@ -28,10 +28,10 @@ class StudentLinkedList:
     # Function to display the status of the linked list and count the number of nodes
     def display(self):
         count = 0
-        print("USN\tName\tBranch\tSem\tPhNo")
+        print("URN\tName\tBranch\tSem\tPhNo")
         current = self.head
         while current:
-            print(current.usn, "\t", current.name, "\t", current.branch, "\t", current.sem, "\t", current.phno)
+            print(current.urn, "\t", current.name, "\t", current.branch, "\t", current.sem, "\t", current.phno)
             count += 1
             current = current.next
         print("Number of students: ", count)
@@ -39,7 +39,7 @@ class StudentLinkedList:
     # Function to insert a student at the end of the linked list
     def end_insert(self):
         student = Student()
-        student.usn = input("Enter USN: ")
+        student.urn = input("Enter URN: ")
         student.name = input("Enter Name: ")
         student.branch = input("Enter Branch: ")
         student.sem = input("Enter Sem: ")
@@ -103,7 +103,7 @@ class StudentLinkedList:
                 self.push()
             elif choice == 6:
                 self.pop()
-            elif choice == 6:
+            elif choice == 7:
                 print("Exiting the program.....")
                 break;
             else:

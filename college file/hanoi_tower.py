@@ -17,20 +17,25 @@ def evaluate_suffix_expression(expression):
             stack.append(result)
     return stack.pop()
 
-# example usage
+
 expression = input("Enter suffix expression: ")
 result = evaluate_suffix_expression(expression)
 print(f"{expression} = {result}")
 
-# function to solve Tower of Hanoi problem
 def tower_of_hanoi(n, source, destination, auxiliary):
     if n == 1:
         print(f"Move disk 1 from {source} to {destination}")
-        return
-    tower_of_hanoi(n-1, source, auxiliary, destination)
-    print(f"Move disk {n} from {source} to {destination}")
-    tower_of_hanoi(n-1, auxiliary, destination, source)
+        return [f"Move disk 1 from {source} to {destination}"]
 
-# example usage
-n = 3
-tower_of_hanoi(n, 'A', 'C', 'B')
+    moves = []
+    moves.extend(tower_of_hanoi(n - 1, source, auxiliary, destination))
+    print(f"Move disk {n} from {source} to {destination}")
+    moves.extend(tower_of_hanoi(n - 1, auxiliary, destination, source))
+
+    return moves
+
+n = (int(input("Enter the number of disks: ")))
+source = input("Enter the name of the source rod: ")
+auxiliary = input("Enter the name of the auxiliary rod: ")
+destination = input("Enter the name of the destination rod: ")
+moves = tower_of_hanoi(n, source, auxiliary, destination)
