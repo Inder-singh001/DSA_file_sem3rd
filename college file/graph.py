@@ -6,7 +6,7 @@ class CityGraph:
         self.graph = [[0] * n for i in range(n)]
         self.visited = [False] * n
 
-    def add_edge(self, u, v):
+    def add_graph(self, u, v):
         self.graph[u][v] = 1
         self.graph[v][u] = 1
 
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     print("Enter the edges in the graph (u v): ")
     for i in range(n):
         u, v = map(int, input().split())
-        g.add_edge(u, v)
+        g.add_graph(u, v)
 
     print("Enter the starting city for traversal: ")
     v = int(input())
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 #         self.graph = [[0] * n for i in range(n)]
 #         self.visited = [False] * n
 
-#     def add_edge(self, u, v):
+#     def add_graph(self, u, v):
 #         self.graph[u][v] = 1
 #         self.graph[v][u] = 1
 
