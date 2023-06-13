@@ -24,8 +24,7 @@ The repository includes the following:
 | 10.    | Design, Develop and Implement a Program for the following operations on Graph(G) of Cities <br> a. Create a Graph of N cities using Adjacency Matrix. <br> b. Print all the nodes reachable from a given starting node in a digraph using DFS/BFS method | [Graph_program](./college%20file/graph.py) |
 | 11.    | Write a Program to finds the position of an element in an array using Linear Search Algorithm and Binary search Algorithm. | [Seach_program](./college%20file/search.py) |
 | 12.    | Write a program to sort list using different sorting algorithms (bubble, selection, insertion, radix, merge and quick sort) and compare them. | [sort_program](./college%20file/sort.py) |
-----
-<br>
+
 
 ## Usage
 
