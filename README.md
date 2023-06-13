@@ -2,11 +2,11 @@
 This repository contains programs for the subject "Data Structures and Algorithms" aimed at students pursuing B.Tech in Computer Science and Engineering in the third semester.
 
 ## Description
----
+
 The programs included in this repository cover various data structures and algorithms topics. They serve as a resource for students to learn and understand different concepts in the field of data structures and algorithms.
 
 ## Contents
----
+
 The repository includes the following:
 
 
@@ -28,7 +28,7 @@ The repository includes the following:
 <br>
 
 ## Usage
----
+
 Students can navigate through the repository to find the programs they are interested in. Each program is contained in a separate file with an appropriate name and extension (e.g., `.py` for python programs). 
 
 To use the programs:
@@ -40,7 +40,7 @@ To use the programs:
 Feel free to explore the repository, learn from the programs, and use them as a reference for your own assignments or projects.
 
 ## Contribution
----
+
 If you wish to contribute to this repository, you are welcome to submit your own programs or improvements to the existing ones. Follow these steps:
 
 1. Fork the repository to your own GitHub account.
