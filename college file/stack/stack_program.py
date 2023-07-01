@@ -1,4 +1,4 @@
-print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
+
 top = -1
 stack = []
 

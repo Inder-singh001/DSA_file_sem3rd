@@ -1,4 +1,4 @@
-print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
+
 
 def linear_search(arr, target):
     for i in range(len(arr)):

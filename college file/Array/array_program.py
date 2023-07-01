@@ -1,4 +1,3 @@
-print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
 # Function to create an array of N integer elements
 def create_array(n):
     arr = []

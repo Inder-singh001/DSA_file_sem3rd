@@ -1,4 +1,3 @@
-print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
 
 import random
 import time

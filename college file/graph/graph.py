@@ -1,4 +1,3 @@
-print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
 
 class CityGraph:
     def __init__(self, n):

@@ -1,4 +1,4 @@
-print("\nNAME: Inderpreet Singh\nURN: 2104118\nCRN: 2115064\n")
+
 MAX = 5
 queue = [''] * MAX
 front = -1
